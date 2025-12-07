@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -11,7 +11,7 @@ import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSplit from '@/components/sections/footer/FooterSplit';
-import { Mail, Globe } from 'lucide-react';
+import { Mail, Globe, Linkedin } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -333,7 +333,7 @@ export default function LandingPage() {
           title="Building the future through innovation, leadership, and technology"
           contactItems={[
             { icon: Mail, text: "contact@gabrieleghione.com" },
-            { icon: "Linkedin", text: "LinkedIn Profile" },
+            { icon: Linkedin, text: "LinkedIn Profile" },
             { icon: Globe, text: "Milan, Italy · Global" }
           ]}
         />
